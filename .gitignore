@@ -1,0 +1,8 @@
+build
+mcc
+mprep
+main.c
+BSIM4Mathematica.xcodeproj
+*.swp
+.MathematicaResources
+.project

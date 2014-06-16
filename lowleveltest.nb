@@ -1,0 +1,295 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     11940,        285]
+NotebookOptionsPosition[     10950,        246]
+NotebookOutlinePosition[     11330,        263]
+CellTagsIndexPosition[     11287,        260]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"link", "=", 
+   RowBox[{
+   "Install", "[", 
+    "\"\<~/Dropbox/git/BSIM4Mathematica/build/Debug/BSIM4Mathematica\>\"", 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.5675791611120863`*^9, 3.567579184905023*^9}, {
+   3.56763772307611*^9, 3.567637724274096*^9}, {3.567641666233959*^9, 
+   3.567641667583715*^9}, 3.567656208160963*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"link", "=", 
+  RowBox[{"Install", "[", 
+   RowBox[{"LinkConnect", "[", 
+    RowBox[{"\"\<63704@10.218.101.175,63705@10.218.101.175\>\"", ",", 
+     RowBox[{"LinkProtocol", "\[Rule]", "\"\<TCPIP\>\""}]}], "]"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.567641669078891*^9, 3.5676417222230597`*^9}, {
+  3.5676417613986187`*^9, 3.567641770384019*^9}, {3.5676418835104027`*^9, 
+  3.567641888064252*^9}, {3.567642130033153*^9, 3.5676421376955214`*^9}, {
+  3.5676422593239727`*^9, 3.567642265785471*^9}, {3.567643213022196*^9, 
+  3.567643217687298*^9}, {3.567643490242071*^9, 3.567643494532089*^9}, {
+  3.567643624096293*^9, 3.567643631787353*^9}, {3.567644329090272*^9, 
+  3.5676443337364473`*^9}, {3.567651494401959*^9, 3.567651507103443*^9}, {
+  3.5676515679328537`*^9, 3.567651572283742*^9}, {3.567652149623658*^9, 
+  3.567652154439728*^9}, {3.567653628865959*^9, 3.567653633999144*^9}, {
+  3.5676540308991632`*^9, 3.567654036177191*^9}, {3.567656999958606*^9, 
+  3.5676570045400133`*^9}, {3.567657512257183*^9, 3.567657518405341*^9}, {
+  3.567657692269012*^9, 3.567657697946074*^9}}],
+
+Cell[BoxData[
+ RowBox[{"LinkObject", "[", 
+  RowBox[{"\<\"63704@10.218.101.175,63705@10.218.101.175\"\>", ",", "85", ",",
+    "4"}], "]"}]], "Output",
+ CellChangeTimes->{3.567653540310296*^9, 3.567653634608025*^9, 
+  3.567654036675105*^9, 3.5676570060588007`*^9, 3.5676575193994837`*^9, 
+  3.567657706307435*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BSIM47`Private`SetModelSelectors", "[", 
+  RowBox[{"{", 
+   RowBox[{
+   "14", " ", ",", "4.7", ",", "1", ",", "1", ",", "1", ",", "1", ",", "0", 
+    ",", "1", ",", "1", ",", "0", ",", "1", ",", "1", ",", "0", ",", "0", ",",
+     "0", ",", "1", ",", "0", ",", "1", ",", "0", ",", "1", ",", "1", ",", 
+    "1", ",", "0", ",", "0"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.5676377335924673`*^9, 3.567637775585724*^9}, 
+   3.567639256860153*^9, {3.567655473801364*^9, 3.567655561161024*^9}, {
+   3.56765564133319*^9, 3.567655665095882*^9}, {3.5676557109113007`*^9, 
+   3.567655748119347*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{
+  3.567639258491618*^9, 3.567639435775003*^9, 3.567639585724401*^9, 
+   3.567641775266921*^9, 3.567655749480605*^9, 3.567656217911031*^9, 
+   3.567656689027603*^9, 3.567656896088271*^9, 3.567657042278915*^9, 
+   3.567657270242284*^9, {3.567657452137259*^9, 3.567657466426878*^9}, 
+   3.5676575329006844`*^9, 3.567657743523447*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BSIM47`Private`SetProcessParameters", "[", 
+  RowBox[{"{", 
+   RowBox[{"3.9", ",", 
+    RowBox[{"1.8", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "9"}]]}], ",", 
+    RowBox[{"1.8", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "9"}]]}], ",", 
+    RowBox[{"10.", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "10"}]]}], ",", 
+    RowBox[{"1.8", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "9"}]]}], ",", 
+    RowBox[{"8.", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "10"}]]}], ",", 
+    RowBox[{"2.", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "8"}]]}], ",", "10.", ",", "10.", ",", 
+    RowBox[{"2.8", "*", 
+     SuperscriptBox["10", "18"]}], ",", 
+    RowBox[{"6.", "*", 
+     SuperscriptBox["10", "16"]}], ",", 
+    RowBox[{"5.", "*", 
+     SuperscriptBox["10", "20"]}], ",", 
+    RowBox[{"1.", "*", 
+     SuperscriptBox["10", "20"]}], ",", "10.", ",", 
+    RowBox[{"1.55", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "7"}]]}], ",", "0.", ",", "0.4"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.567655752191803*^9, 3.5676558478145533`*^9}, {
+   3.5676559011843767`*^9, 3.567655951288539*^9}, {3.567656004381337*^9, 
+   3.567656117663397*^9}, {3.567656879288115*^9, 3.5676568869678802`*^9}, {
+   3.567657276501927*^9, 3.567657277281448*^9}, 3.567657979814765*^9, {
+   3.567658040698928*^9, 3.567658042580886*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{
+  3.5676561189042387`*^9, {3.56765621981208*^9, 3.567656249363933*^9}, 
+   3.567656303511671*^9, {3.567656697628006*^9, 3.567656726680044*^9}, {
+   3.56765689708853*^9, 3.567656899147785*^9}, 3.5676570501280937`*^9, 
+   3.5676572781042356`*^9, {3.5676574534265623`*^9, 3.567657467410301*^9}, 
+   3.567657538259944*^9, 3.567657859890551*^9, 3.5676579897269583`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BSIM47`Private`CheckModelParameters", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.567639270453642*^9, 3.567639277453768*^9}}],
+
+Cell[BoxData["\<\"BSIM4: Berkeley Short Channel IGFET Model-4\\nDeveloped by \
+Xuemei (Jane) Xi, Mohan Dunga, Prof. Ali Niknejad and Prof. Chenming Hu in \
+2003.\\n++++++++++ BSIM4 PARAMETER CHECKING BELOW ++++++++++\\nFatal: Easub \
+is not positive.\\nFatal: Toxref is not positive.\\nFatal: Ndep is not \
+positive.\\nFatal: Phi is not positive. Please check Phin and Ndep.\\nFatal: \
+Nsub is not positive.\\nFatal: Xj is not positive.\\nFatal: (W0 + Weff) = 0 \
+causing divided-by-zero.\\nFatal: (B1 + Weff) = 0 causing \
+divided-by-zero.\\nFatal: u0 at current temperature is not positive.\\nFatal: \
+Vsat at current temperature is not positive.\\nFatal: Pclm is not \
+positive.\\nFatal: Number of finger is smaller than one.\\nFatal: The \
+parameter xgl must be smaller than Ldrawn+XL.\\nFatal: The parameter ngcon \
+cannot be smaller than one.\\nWarning: Ngcon must be equal to one or two; \
+reset to 1.0.\\nWarning: Gbmin is too small.\\nFatal: nigbinv is \
+non-positive.\\nFatal: nigbacc is non-positive.\\nFatal: nigc is \
+non-positive.\\nFatal: poxedge is non-positive.\\nFatal: pigcd is \
+non-positive.\\nWarning: ckappas is too small.\\nWarning: ckappad is too \
+small.\\nWarning: Leff <= 1.0e-9. Recommended Leff >= 1e-8\\nWarning: Leff \
+for CV <= 1.0e-9. Recommended LeffCV >=1e-8\\nWarning: Weff <= 1.0e-9. \
+Recommended Weff >=1e-7 \\nWarning: Weff for CV <= 1.0e-9. Recommended WeffCV \
+>= 1e-7\\nWarning: Ndep may be too small.\\nWarning: Nsub may be too \
+small.\\nWarning: (W0 + Weff) may be too small.\\nWarning: (B1 + Weff) may be \
+too small.\\nWarning: A2 is too small. Set to 0.01.\\nWarning: Pscbe2 is not \
+positive.\\nWarning: Vsat at current temperature may be too small.\\nWarning: \
+Noff is too small.\\nWarning: Moin is too small.\\nWarning: Njs is less than \
+0.1. Setting Njs to 0.1.\\nWarning: Njd is less than 0.1. Setting Njd to 0.1.\
+\\n\"\>"], "Print",
+ CellChangeTimes->{3.567654097632159*^9, 3.567654323009224*^9, 
+  3.5676562289735518`*^9, 3.567656310856492*^9, 3.567656732611487*^9, 
+  3.56765746916089*^9, 3.56765754122639*^9, 3.567657999829232*^9}],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.567657999833791*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Uninstall", "[", "link", "]"}]], "Input",
+ CellChangeTimes->{{3.5675796412450457`*^9, 3.567579644702223*^9}, {
+  3.567582793905751*^9, 3.567582803187482*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"LinkObject", "::", "linkn"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Argument \
+\[NoBreak]\\!\\(LinkObject[\\(\\(\\\"63704@10.218.101.175,63705@10.218.101.\
+175\\\", 85, 4\\)\\)]\\)\[NoBreak] in \
+\[NoBreak]\\!\\(LinkClose[\\(\\(LinkObject[\\(\\(\\\"63704@10.218.101.175,\
+63705@10.218.101.175\\\", 85, 4\\)\\)]\\)\\)]\\)\[NoBreak] has an invalid \
+LinkObject number; the link may be closed. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/LinkObject/linkn\\\", ButtonNote -> \
+\\\"LinkObject::linkn\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.567658186633712*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"LinkObject", "::", "linkn"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Argument \
+\[NoBreak]\\!\\(LinkObject[\\(\\(\\\"63704@10.218.101.175,63705@10.218.101.\
+175\\\", 85, 4\\)\\)]\\)\[NoBreak] in \
+\[NoBreak]\\!\\(LinkPatterns[\\(\\(LinkObject[\\(\\(\\\"63704@10.218.101.175,\
+63705@10.218.101.175\\\", 85, 4\\)\\)]\\)\\)]\\)\[NoBreak] has an invalid \
+LinkObject number; the link may be closed. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/LinkObject/linkn\\\", ButtonNote -> \
+\\\"LinkObject::linkn\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.567658186809413*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Unset", "::", "norep"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Assignment on \[NoBreak]\\!\\(LinkPatterns\\)\[NoBreak] \
+for \[NoBreak]\\!\\(LinkPatterns[\\(\\(LinkObject[\\(\\(\\\"63704@10.218.101.\
+175,63705@10.218.101.175\\\", 85, 4\\)\\)]\\)\\)]\\)\[NoBreak] not found. \\!\
+\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/Unset/norep\\\", \
+ButtonNote -> \\\"Unset::norep\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.567658186811668*^9}],
+
+Cell[BoxData["\<\"63704@10.218.101.175,63705@10.218.101.175\"\>"], "Output",
+ CellChangeTimes->{
+  3.567579645113834*^9, 3.567579780845389*^9, 3.567582444690316*^9, 
+   3.567582634194127*^9, 3.56758278794055*^9, {3.5675841319232407`*^9, 
+   3.5675841385875807`*^9}, 3.567584541403173*^9, 3.567584625502489*^9, 
+   3.567584781460281*^9, 3.5676267726323957`*^9, 3.567637588945046*^9, 
+   3.567639102689721*^9, 3.567639178606958*^9, {3.567639333523885*^9, 
+   3.56763935472163*^9}, 3.5676395663830147`*^9, 3.567639621274173*^9, 
+   3.56763970562045*^9, 3.567639800319787*^9, {3.5676400123858433`*^9, 
+   3.567640028469722*^9}, {3.567640125802953*^9, 3.5676401597024*^9}, 
+   3.5676417444148197`*^9, 3.567641817379809*^9, 3.567642157512589*^9, 
+   3.567643241393737*^9, 3.5676436123760567`*^9, 3.56765432635682*^9, 
+   3.5676553093591213`*^9, 3.56765618366114*^9, 3.567656315928068*^9, 
+   3.567656738994156*^9, 3.567656932676597*^9, 3.567657355394205*^9, {
+   3.567657458243805*^9, 3.5676574718533583`*^9}, 3.5676580078601637`*^9, 
+   3.567658186813487*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 867},
+WindowMargins->{{-782, Automatic}, {42, Automatic}},
+ShowSelection->True,
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 374, 9, 28, "Input"],
+Cell[CellGroupData[{
+Cell[956, 33, 1110, 18, 46, "Input"],
+Cell[2069, 53, 312, 6, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2418, 64, 620, 11, 46, "Input"],
+Cell[3041, 77, 379, 6, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3457, 88, 1397, 37, 79, "Input"],
+Cell[4857, 127, 413, 6, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5307, 138, 149, 2, 28, "Input"],
+Cell[5459, 142, 2093, 28, 694, "Print"],
+Cell[7555, 172, 76, 1, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7668, 178, 182, 3, 28, "Input"],
+Cell[7853, 183, 714, 14, 60, "Message"],
+Cell[8570, 199, 717, 14, 60, "Message"],
+Cell[9290, 215, 587, 11, 42, "Message"],
+Cell[9880, 228, 1054, 15, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
